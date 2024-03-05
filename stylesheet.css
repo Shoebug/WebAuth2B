@@ -47,14 +47,15 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width:max-content;   
+    width: max-content;
 }
 
-a{
-    color: #B19470;;
+a {
+    color: #B19470;
+    ;
 }
 
-li a.active{
+li a.active {
     background-color: #CCD6A6;
     color: #FFFBE9;
 }
@@ -74,10 +75,10 @@ li a:hover:not(.active) {
     bottom: 388px;
     padding: 1px 11px;
     color: #867055;
-    
+
 }
 
-.mainimg{
+.mainimg {
     text-align: center;
 }
 
@@ -86,8 +87,8 @@ li a:hover:not(.active) {
     padding: 10px 10px 10px 10px;
     background: #DAE2B6;
     border: 1px solid #B19470;
-    display:inline-block;
-    
+    display: inline-block;
+
 }
 
 .descbox {
@@ -107,11 +108,40 @@ li a:hover:not(.active) {
 }
 
 
-.footer{
+.footer {
     font-size: 16px;
 }
 
 
-.quickguide{
+.quickguide {
     display: inline-block;
+}
+
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item a:hover:not(.active) {
+    text-decoration: underline;
+
+}
+
+.caption {
+    display: block;
+}
+
+.mainalign {
+    text-align: center;
+}
+
+.maintext {
+    font-size: 17px;
 }
